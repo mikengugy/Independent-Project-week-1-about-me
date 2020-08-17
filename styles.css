@@ -1,50 +1,59 @@
 *{
-    overflow-x: hidden;
-    background-color: cadetblue;
-    
+    background-color:burlywood;
 }
-Header {
-    list-style-type: none;
-    top: -20px;
-    left: -10px;
-    padding: 0 50px 0 80px;
-    overflow: hidden;
-    background-color: #343a40;
-    position: fixed;
+#home{
+    background-image: url(https://image.shutterstock.com/image-illustration/python-coding-language-sign-on-260nw-1389877559.jpg);
+    height: 100vh;
     width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-header li{
-    display: inline-block;
+.navbar{
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    transition: .5s;
+    text-align: left;
+    overflow: auto;
 }
-header li a{
-    display: block;
+.navbar ul li a{
+    text-decoration: indianred;
     color: white;
-    text-align: center;
-    padding: 8px 100px;
-    text-decoration: none;
+}  
+.navbar ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 50px;
+    font-size: 24px;
+    font-family: sans-serif;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: .5s; 
 }
-header li a:hover {
-    background-color: black;
+.navbar ul li:hover{
+    background-color: orange;
 }
-.container navbar{
-    max-width: 960px;
-    padding: 20px;
-    margin: auto;
-    text-align: center;
-    font-size: larger;
-    background-color: rgb(245, 241, 241);
+ul li{
+    font-size: 24px;
+    margin-left: 20px;
 }
-#pic{
-    border-radius: 100%;
+
+ .projects{
+     margin-top: 100px;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px
+    
 }
 
 .footer{
     background: #343a40;
     color: #fffafa;
-    height: 20px;
+    height: 50px;
     width: 100%;
     text-align: center;
     position: absolute;
-    padding-top: 5px;
-}
-© 2020 GitHub, Inc.
+    padding-top: 30px;
+    border box: black;
+}    
